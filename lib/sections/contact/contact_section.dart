@@ -54,27 +54,28 @@ class ContactBox extends StatelessWidget {
       ),
       child: Column(
         children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          Wrap(
+spacing: 20.0,
             children: [
               SocalCard(
                 color: Color(0xFFD9FFFC),
-                iconSrc: "assets/images/skype.png",
-                name: 'TheFlutterWay',
+                iconSrc: "assets/images/email.png",
+
+                name: 'Email Me',
                 press: () {},
               ),
               SocalCard(
                 color: Color(0xFFE4FFC7),
                 iconSrc: "assets/images/whatsapp.png",
-                name: 'TheFlutterWay',
+                name: 'Message Me',
                 press: () {},
               ),
-              SocalCard(
-                color: Color(0xFFE8F0F9),
-                iconSrc: "assets/images/messanger.png",
-                name: 'TheFlutterWay',
-                press: () {},
-              ),
+              // SocalCard(
+              //   color: Color(0xFFE8F0F9),
+              //   iconSrc: "assets/images/messanger.png",
+              //   name: 'TheFlutterWay',
+              //   press: () {},
+              // ),
             ],
           ),
           SizedBox(height: kDefaultPadding * 2),

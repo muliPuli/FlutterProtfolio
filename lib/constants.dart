@@ -5,6 +5,9 @@ const kTextLightColor = Color(0xFF555555);
 
 const kDefaultPadding = 20.0;
 
+
+const tabletScreenWidth = 850;
+
 final kDefaultShadow = BoxShadow(
   offset: Offset(0, 50),
   blurRadius: 50,
